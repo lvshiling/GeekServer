@@ -355,3 +355,11 @@ MigrationBackup/
 /UnityDemo/Temp
 /.idea
 /database
+UnityDemo/Assembly-CSharp.csproj
+UnityDemo/MessagePack.Annotations.csproj
+UnityDemo/MessagePack.csproj
+UnityDemo/Unity.VisualStudio.Editor.csproj
+UnityDemo/UnityDemo.sln
+UnityDemo/UserSettings/Layouts/default-6000.dwlt
+UnityDemo/UserSettings/Layouts/default-6000.dwlt
+UnityDemo/UserSettings/Layouts/default-6000.dwlt
