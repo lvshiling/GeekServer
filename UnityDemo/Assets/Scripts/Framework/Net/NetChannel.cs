@@ -1,5 +1,4 @@
-﻿
-using MessagePack;
+﻿using MessagePack;
 using System.Buffers;
 using System.IO.Pipelines;
 using System.Net.Sockets;
@@ -94,7 +93,7 @@ public class NetChannel
 
     protected virtual bool TryParseMessage(ref ReadOnlySequence<byte> input)
     {
-        var reader = new SequenceReader<byte>(input);
+        var reader = new System.Buffers.SequenceReader<byte>(input);
 
         if (!reader.TryReadBigEndian(out int length) || reader.Remaining < length - 4)
         {
